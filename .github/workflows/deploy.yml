@@ -1,0 +1,31 @@
+name: Deploy to Hostinger VPS
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy via SSH
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          key: ${{ secrets.KEY }}
+          port: 22
+          script: |
+            # 1. Navigate to the landing pages directory
+            cd /home/humuser/hum-developers-landing-pages
+            
+            # 2. Update code using the locally configured SSH key
+            git pull origin main
+            
+            # 3. Install dependencies and build the production bundle
+            npm install
+            npm run build
+            
+            # 4. Restart the specific PM2 process for this project
+            pm2 restart hum-landing-pages
