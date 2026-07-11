@@ -1,6 +1,6 @@
 import type { ContactFormValues } from "@/lib/schemas/contactForm";
 
-export const enquirySubmissionUrl = process.env.NEXT_PUBLIC_APPSCRIPT_URL || "https://script.google.com/macros/s/AKfycbw1w0gBiwOecb6z_q8Botip07ewrbck7b_rvCM6H-XFtXvHIAE1JihClA3Fu9Xle5BrgA/exec";
+export const enquirySubmissionUrl = process.env.NEXT_PUBLIC_APPSCRIPT_URL || "https://script.google.com/macros/s/AKfycbwJORZMmYzZTOjMeN3Trx1Evc81OLbXAklgyZJgfzkm50_PnADfFXoqtElU12OF2pk-/exec";
 
 export async function submitEnquiryForm(values: ContactFormValues) {
   const formData = new FormData();
