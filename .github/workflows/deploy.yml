@@ -17,9 +17,16 @@ jobs:
           key: ${{ secrets.KEY }}
           port: 22
           script: |
-            cd /home/humuser/galaxy_heights
+            # 1. Navigate to the project directory
+            cd /home/humuser/galaxy-heights
+            
+            # 2. Pull the latest changes using the project-specific key
             git pull origin main
+            
+            # 3. Install dependencies and rebuild the Next.js bundle
             npm install
             npm run build
-            pm2 restart galaxy_heights || pm2 start npm --name "galaxy_heights" -- run start
+            
+            # 4. Safely restart the correct PM2 process name
+            pm2 restart galaxy_heights-process || pm2 start npm --name "galaxy_heights-process" -- run start
             pm2 save
