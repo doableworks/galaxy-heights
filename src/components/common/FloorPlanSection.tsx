@@ -13,7 +13,7 @@ function FloorPlanSection() {
         </h2>
         <div className="flex flex-col items-center gap-8 pt-4 text-center lg:items-start lg:text-left">
           <p className="text-xl lg:text-2xl">
-            At Hum Emerald Heights, each residence is designed with precision to offer spacious interiors and seamless movement.
+            At Hum Galaxy Heights, each residence is designed with precision to offer spacious interiors and seamless movement.
 Built with Vastu-compliant planning, your home is aligned for both comfort and well-being.
           </p>
         </div>

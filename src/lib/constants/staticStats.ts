@@ -20,7 +20,7 @@ export const aboutStats: {
   },
   {
     iconUrl: "/icons/ongoing.svg",
-    stat: "5 Lacs+",
+    stat: "8 Lacs+",
     subtext: "Sq. Ft Ongoing",
     colour: "--gold-colour",
   },
@@ -39,7 +39,7 @@ export const connectivityItems : {
 }[] = [
   {
     iconUrl: "/icons/metro.svg",
-    title: "Kandivali West Metro Station",
+    title: "Hum developers Kandivali west metro station",
     distance: "5 mins away",
   },
   {
@@ -54,7 +54,7 @@ export const connectivityItems : {
   },
   {
     iconUrl: "/icons/hospital.svg",
-    title: "Renowned Hospitals",
+    title: "Hospital",
     distance: "5 mins away",
   },
   {
@@ -72,27 +72,27 @@ export const connectivityItems : {
 export const amenitiesItems :{ imageUrl: string; title: string }[] = [
   {
     imageUrl: "/assets/galaxyImages/terraceOpenGym.jpg",
-    title: "Terrace Open Gym",
+    title: "Open Gym",
   },
   {
     imageUrl: "/assets/galaxyImages/terraceYogaArea.jpg",
-    title: "Terrace Yoga Area",
+    title: "Yoga Area",
   },
   {
     imageUrl: "/assets/galaxyImages/terraceKidsPlayArea.jpg",
-    title: "Terrace Kids Play Area",
+    title: "Kids Play Area",
   },
   {
     imageUrl: "/assets/galaxyImages/terraceOpenTheatre.jpg",
-    title: "Terrace Open Theatre",
+    title: "Open Theatre",
   },
   {
     imageUrl: "/assets/galaxyImages/terraceSeatingArea.jpg",
-    title: "Terrace Seating Area",
+    title: "Seating Area",
   },
   {
     imageUrl: "/assets/galaxyImages/terraceMultipurposeTurf.jpg",
-    title: "Terrace Multipurpose Turf",
+    title: "Multipurpose Turf",
   },
   {
     imageUrl: "/assets/galaxyImages/starGazing.jpg",
@@ -100,7 +100,7 @@ export const amenitiesItems :{ imageUrl: string; title: string }[] = [
   },
   {
     imageUrl: "/assets/galaxyImages/terraceCloseupNight.jpg",
-    title: "Terrace Closeup Night",
+    title: "TerraceCloseup Night",
   },
 ];
 
@@ -154,7 +154,7 @@ export const floorPlanCards :{ id: number; title: string; projectName: string, i
   },
   {
     id: 3,
-    title: "17th to 21st floor plan",
+    title: "17th to 19th floor plan",
     projectName: "HUM Galaxy Heights",
       imageUrl: "/assets/floorPlan10.jpeg",
   }
@@ -182,7 +182,7 @@ export const faqItems: { id: number; title: string; content: string }[] = [
     id: 2,
     title: "What types of homes are available at HUM Galaxy Heights?",
     content:
-      "HUM Developers offers intelligently planned 1, 2, 2.5, and 3 BHK residences at HUM Galaxy Heights, with layouts focused on maximum usable space, natural light, and everyday functionality.",
+      "HUM Developers offers intelligently planned 2 and 3 BHK residences at HUM Galaxy Heights, with layouts focused on maximum usable space, natural light, and everyday functionality.",
   },
   {
     id: 3,
