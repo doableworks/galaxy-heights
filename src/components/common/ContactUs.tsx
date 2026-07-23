@@ -7,7 +7,7 @@ const contactItems = [
   {
     icon: "/icons/outlinePhone.svg",
     title: "Phone",
-    value: "+91 8976 7649 79",
+    value: "+91 8655 6545 65",
   },
   {
     icon: "/icons/mail.svg",
