@@ -142,22 +142,16 @@ export const galleryImages : { src: string; alt: string }[] = [
 export const floorPlanCards :{ id: number; title: string; projectName: string, imageUrl: string }[] = [
   {
     id: 1,
-    title: "2nd to 9th floor plan",
+    title: "5th to 8th floor plan",
     projectName: "HUM Galaxy Heights",
     imageUrl: "/assets/floorPlan2.jpeg",
   },
   {
     id: 2,
-    title: "10th to 16th floor plan",
+    title: "9th to 19th floor plan",
     projectName: "HUM Galaxy Heights",
     imageUrl: "/assets/floorPlan10.jpeg",
   },
-  {
-    id: 3,
-    title: "17th to 19th floor plan",
-    projectName: "HUM Galaxy Heights",
-      imageUrl: "/assets/floorPlan10.jpeg",
-  }
 ];
 
 export const priceCards :{ title: string; area: string }[] = [

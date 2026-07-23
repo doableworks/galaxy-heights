@@ -2,6 +2,8 @@ import FloorPlanCard from "@/components/common/FloorPlanCard";
 import { floorPlanCards } from "@/lib/constants/staticStats";
 
 function FloorPlanSection() {
+  const isFewCards = floorPlanCards.length < 3;
+
   return (
     <section className="w-full px-6 pb-16 lg:px-16" id="floor-plan">
       <div className="flex flex-col items-center justify-center gap-4 lg:items-start">
@@ -19,11 +21,21 @@ Built with Vastu-compliant planning, your home is aligned for both comfort and w
         </div>
       </div>
 
-      <div className="mt-12 grid grid-cols-1 gap-8 lg:gap-12 lg:grid-cols-3">
-        {floorPlanCards.map((card) => (
-          <FloorPlanCard key={card.id} title={card.title} imageUrl={card.imageUrl} />
-        ))}
-      </div>
+      {isFewCards ? (
+        <div className="mt-12 flex flex-col items-center gap-8 lg:flex-row lg:justify-center lg:gap-12">
+          {floorPlanCards.map((card) => (
+            <div key={card.id} className="w-full lg:w-[400px]">
+              <FloorPlanCard title={card.title} imageUrl={card.imageUrl} />
+            </div>
+          ))}
+        </div>
+      ) : (
+        <div className="mt-12 grid grid-cols-1 gap-8 lg:gap-12 lg:grid-cols-3">
+          {floorPlanCards.map((card) => (
+            <FloorPlanCard key={card.id} title={card.title} imageUrl={card.imageUrl} />
+          ))}
+        </div>
+      )}
     </section>
   );
 }
