@@ -18,7 +18,7 @@ const contactItems = [
     icon: "/icons/map.svg",
     title: "Site Office",
     value:
-      "Hum Galaxy Heights, Near Tulsi Vihar Hotel, Charkop Sector 1,<br/> Kandivali (W), Mumbai",
+      " HUM Galaxy Heights, Hanuman Mandir Road, Charkop Sector 1,<br/> Kandivali West, Mumbai - 400067,
   },
 ];
 
