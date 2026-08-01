@@ -116,7 +116,7 @@ function HeroSection() {
             className="relative flex w-[90%] lg:w-[55%] p-12 py-20 lg:py-16 bg-black/30 rounded-3xl shadow-lg"
           >
             <ContactForm />
-            <div className="bg-[image:var(--button-gradient-1)] h-12 w-full lg:w-[40%] rounded-t-3xl lg:rounded-tr-none lg:rounded-tl-[2.5em] lg:rounded-br-[2.5em] absolute top-0 left-0 z-20 flex items-center justify-center">
+            <div className="bg-[image:var(--button-gradient-1)] h-12 w-full lg:w-[40%] rounded-t-3xl lg:rounded-tr-none lg:rounded-tl-3xl lg:rounded-br-[2.5em] absolute top-0 left-0 z-20 flex items-center justify-center">
               <p className="text-primary font-medium text-lg">Enquiry Form</p>
             </div>
           </div>

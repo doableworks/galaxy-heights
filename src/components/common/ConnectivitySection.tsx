@@ -9,14 +9,14 @@ function ConnectivitySection() {
           Effortless Connectivity at HUM Galaxy Heights
         </h2>
         <h2 className="text-center text-3xl font-bold text-black lg:text-left lg:text-6xl">
-          Stay close to metro, schools, hospitals, and everything the city has to offer.
+          Stay close to Metro, Schools, Hospitals, and everything the City has to offer.
         </h2>
       </div>
       <div className="mt-10 grid grid-cols-1 gap-6 md:grid-cols-2 lg:mt-14 lg:grid-cols-3">
         {connectivityItems.map((item, index) => (
           <div
             key={item.iconUrl}
-            className="flex min-h-[200px] flex-col items-center justify-between p-8 lg:min-h-[250px] lg:p-10"
+            className="flex min-h-[200px] flex-col items-center justify-start p-8 lg:min-h-[250px] lg:p-10"
             style={{
               backgroundImage:
                 index % 2 === 0

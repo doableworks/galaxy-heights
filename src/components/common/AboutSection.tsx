@@ -26,11 +26,11 @@ function AboutSection() {
             Refined Living
           </h2>
           <p className="text-lg lg:w-[80%]">
-            For Over Two decades, we have evolved from a Boutique Developer to one of the trusted names in Real estate, with our portfolio spanning Residential, Commercial, and Mixed-used developments.
+            For over Two Decades, we have evolved from a Boutique Developer to one of the trusted  names in Real Estate, with our portfolio spanning Residential, Commercial, and Mixed-used developments.
           </p>
           <p className="mb-6 text-lg lg:w-[80%]">
-            Our commitment to Architectural Excellence, Sustainable practices, and Customer-centric approach has earned us the trust of over 2000 families and recognition from industry peers.
-          </p>
+            Our Commitment to Architectural Excellence, Sustainable Practices, & Customer Centric Approach has earned us the trust of over 2000 Happy Families and Recognition from Industry Peers.
+                      </p>
           {/* <img
             src={"/assets/logo.svg"}
             alt="Office Image"

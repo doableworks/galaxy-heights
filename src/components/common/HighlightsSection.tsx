@@ -22,7 +22,7 @@ function HighlightsSection() {
           HUM Galaxy Heights
         </h2>
       </div>
-      <div className="mt-10 grid grid-cols-1 gap-x-12 gap-y-12 md:grid-cols-2">
+      <div className="mt-10 grid grid-cols-1 gap-6 md:grid-cols-2">
         {highlightItems.map((item) => (
           <div key={item} className="flex border-b border-gray-300 pb-6 lg:border-0 lg:pb-0 lg:items-start gap-4">
             <img

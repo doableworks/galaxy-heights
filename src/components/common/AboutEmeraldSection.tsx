@@ -14,7 +14,7 @@ function AboutEmeraldSection() {
 
       <div className="mx-auto mt-8 flex flex-col gap-6 px-6 text-center lg:mt-10 lg:gap-8 lg:px-24 lg:text-left">
         <p className="text-lg leading-8 text-neutral-800 lg:text-xl lg:leading-9">
-          Step into a world of elegance and sophistication at HUM Galaxy Heights — a G+19 storey landmark tower by HUM Developers. Thoughtfully crafted residences, exceptional connectivity, and curated lifestyle amenities come together to redefine contemporary urban living. An address that truly reflects your aspirations, where luxury, comfort, and convenience blend seamlessly every single day.
+          Step into a World of Elegance and Sophistication at HUM Galaxy Heights – A G+19 Storey Landmark Tower by HUM Developers. Thoughtfully Crafted Residences, Exceptional Connectivity, and Curated Lifestyle Amenities come together to redefine contemporary urban living. An address that truly reflects your aspirations, where Luxury, Comfort, and Convenience blend seamlessly every single day.
         </p>
       </div>
     </section>

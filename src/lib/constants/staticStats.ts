@@ -21,7 +21,7 @@ export const aboutStats: {
   {
     iconUrl: "/icons/ongoing.svg",
     stat: "8 Lacs+",
-    subtext: "Sq. Ft Ongoing",
+    subtext: "Sq.Ft Currently Under Construction",
     colour: "--gold-colour",
   },
   {
@@ -39,7 +39,7 @@ export const connectivityItems : {
 }[] = [
   {
     iconUrl: "/icons/metro.svg",
-    title: "Hum developers Kandivali west metro station",
+    title: "HUM Developers Kandivali West Metro Station",
     distance: "5 mins away",
   },
   {
@@ -157,7 +157,7 @@ export const floorPlanCards :{ id: number; title: string; projectName: string, i
 export const priceCards :{ title: string; area: string }[] = [
   {
     title: "2 BHK",
-    area: "668 | 715 | 815 SQ.FT",
+    area: "667 | 715 | 813 SQ.FT",
   },
   {
     title: "3 BHK",

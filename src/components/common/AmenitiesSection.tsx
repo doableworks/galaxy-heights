@@ -27,7 +27,7 @@ function AmenitiesSection() {
         </h2>
         <div className="flex w-full flex-col items-center justify-center gap-6 lg:flex-row lg:justify-between">
           <h2 className="text-center text-3xl font-bold text-black lg:text-left lg:text-6xl">
-            Live a life of unmatched <br /> comfort at HUM
+            Live a Life of Unmatched <br /> Comfort at HUM
           </h2>
             {/* <button className="flex items-center justify-center bg-[image:var(--button-gradient-2)] px-4 py-2 font-bold text-white">
               View Projects
