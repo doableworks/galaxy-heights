@@ -5,8 +5,12 @@ import Footer from "@/components/common/Footer";
 import { Mail } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy | HUM Sapphire",
-  description: "Privacy Policy for Hum Developers.",
+  title: "Privacy Policy | HUM Galaxy Heights Kandivali West",
+  description:
+    "Read the official Privacy Policy for HUM Galaxy Heights by HUM Developers in Charkop, Kandivali West, Mumbai.",
+  alternates: {
+    canonical: "/privacy-policy",
+  },
 };
 
 export default function PrivacyPolicyPage() {

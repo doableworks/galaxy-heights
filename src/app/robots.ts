@@ -1,8 +1,8 @@
 import type { MetadataRoute } from "next";
 
 const siteUrls = [
-  process.env.NEXT_PUBLIC_SITE_URL ?? "https://humemeraldheights.com",
-  "https://humemeraldheights.in",
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://humgalaxyheights.com",
+  "https://humgalaxyheights.in",
 ].map((siteUrl) =>
   siteUrl.startsWith("http://") || siteUrl.startsWith("https://")
     ? siteUrl

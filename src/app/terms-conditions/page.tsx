@@ -5,8 +5,12 @@ import Footer from "@/components/common/Footer";
 import { Mail } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Terms & Conditions | HUM Sapphire",
-  description: "Terms & Conditions for using the Hum Developers website.",
+  title: "Terms & Conditions | HUM Galaxy Heights Kandivali West",
+  description:
+    "Read the official Terms & Conditions for HUM Galaxy Heights by HUM Developers in Charkop, Kandivali West, Mumbai.",
+  alternates: {
+    canonical: "/terms-conditions",
+  },
 };
 
 export default function TermsConditionsPage() {

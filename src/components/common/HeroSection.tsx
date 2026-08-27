@@ -58,28 +58,28 @@ function HeroSection() {
         <div className="relative flex flex-col lg:flex-[0.5] justify-end md:flex-[0.6] h-[80vh] lg:h-[95vh] w-full lg:mt-16">
           <Image
             src="/assets/galaxyImages/tempBanner.jpg"
-            alt="Building Image"
+            alt="HUM Galaxy Heights Luxury 2 & 3 BHK Tower in Kandivali West"
             fill
             fetchPriority="high"
             sizes="100vw"
-            className="md:hidden"
+            className="md:hidden object-cover"
           />
           <Image
             src="/assets/galaxyImages/tempBanner.jpg"
-            alt="Building Image"
+            alt="HUM Galaxy Heights Luxury 2 & 3 BHK Tower in Kandivali West"
             fill
             fetchPriority="high"
             sizes="(max-width: 1023px) 100vw, 50vw"
-            className="hidden md:block"
+            className="hidden md:block object-cover"
           />
-          {/* <div className="h-1/2 z-20 bg-gradient-to-t from-black/80 to-transparent absolute bottom-0 w-full tracking-none" />
-            <h1 className="text-white text-4xl font-normal mb-4 z-30 w-full px-6 text-center lg:text-left lg:px-24 lg:text-[4rem] lg:leading-20 tracking-tighter ">
-              Hum Emerald Heights
-              <br />
-              <span className="font-medium tracking-none">
-                Where Everyday Living Feels Elevated
-              </span>
-            </h1> */}
+          <div className="h-1/2 z-20 bg-gradient-to-t from-black/80 to-transparent absolute bottom-0 w-full tracking-none" />
+          <h1 className="text-white text-3xl font-semibold mb-4 z-30 w-full px-6 text-center lg:text-left lg:px-24 lg:text-[3.25rem] lg:leading-tight tracking-tight">
+            HUM Galaxy Heights
+            <br />
+            <span className="font-normal text-xl lg:text-2xl text-gray-200 tracking-normal block mt-1">
+              Luxury 2 &amp; 3 BHK Residences in Kandivali West
+            </span>
+          </h1>
           <div className="flex justify-center lg:justify-start items-center z-30 px-6 pb-12 lg:pb-4 lg:pb-24 lg:px-24 gap-4 lg:gap-12 lg:mt-0">
             {/* <div className="flex flex-col items-start justify-start">
               <h2 className="text-white text-3xl lg:text-5xl font-medium lg:font-bold">

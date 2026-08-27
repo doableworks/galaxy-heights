@@ -1,19 +1,17 @@
 import type { MetadataRoute } from "next";
 
-const siteUrls = [
-  process.env.NEXT_PUBLIC_SITE_URL ?? "https://humemeraldheights.com",
-  "https://humemeraldheights.in",
-].map((siteUrl) =>
-  siteUrl.startsWith("http://") || siteUrl.startsWith("https://")
-    ? siteUrl
-    : `https://${siteUrl}`,
-);
+const baseUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://humgalaxyheights.com";
+const formattedBaseUrl = baseUrl.startsWith("http://") || baseUrl.startsWith("https://")
+  ? baseUrl
+  : `https://${baseUrl}`;
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  return siteUrls.map((siteUrl) => ({
-    url: `${siteUrl}/`,
+  const routes = ["", "/privacy-policy", "/terms-conditions"];
+
+  return routes.map((route) => ({
+    url: `${formattedBaseUrl}${route}`,
     lastModified: new Date(),
-    changeFrequency: "weekly",
-    priority: 1,
+    changeFrequency: route === "" ? "weekly" : "monthly",
+    priority: route === "" ? 1.0 : 0.5,
   }));
 }
